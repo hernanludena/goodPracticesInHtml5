@@ -1,0 +1,29 @@
+--Posicionaminto--
+static - los elementos son static por defecto
+relative - referencia al primer elemento que lo contiene y que no sea static   
+         - el elemento se posiciona respecto a los demas componentes
+absolute - si position es absolute el elemento sale del flujo, los demas elementos se reposicionan.
+         - es referente al primer componente no static, en este caso a la ventana del navegador o al primer padre no static
+fixed - el elemento sale del flujo y se posiciona respecto al navegador, los demas elementos se reposicionan
+
+
+
+Los principales elementos HTML tipo block son:
+
+a) Divisores: div
+b) Párrafos: p
+c) Formularios: form
+d) Títulos: h1, h2, h3, h4, h5, h6.
+e) Listas: ul, ol
+f) Elementos de listas: li
+g) Tablas: table
+h) Otros: center, pre, tbody, td, th, tr…
+ 
+
+Los principales elementos HTML tipo inline son:
+
+a) Links: a
+b) Divisores: span
+c) Imágenes: img (aunque este elemento tiene características especiales)
+d) Controles de formulario: input, label
+e) Otros: strong, u, font, select…

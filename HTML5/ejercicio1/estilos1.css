@@ -1,0 +1,48 @@
+*{
+    color:red
+}   /* selector arteristo a todos los elementos de la pagina*/
+
+p{  /* selector p*/
+    color:blue
+}
+td
+{
+    color:green
+}
+h1,h2
+{
+    color:violet
+}
+div p /* selector div p-->aplica a los tag p q estan dentros de un div*/
+{
+    color:#00FFFF
+}
+span
+{
+    color:blue
+}
+ul span
+{
+    color:black
+}
+a:hover{  /*selector de link*/
+    color:brown
+}
+.tipo1  /*selector de clase*/
+{
+    color: orange
+}
+.especial /* (punto)afecta con componentes con atributo class */
+{
+    color:violet
+}
+#componente1  /* (numeral)afecta con componentes con atributo id --es mas especifico que la clase*/
+{
+    color:gray
+}
+
+img  /*selector de imagen*/
+{
+    width: 100px;
+    height: 200px
+}

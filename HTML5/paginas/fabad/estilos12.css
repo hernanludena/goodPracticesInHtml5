@@ -1,0 +1,67 @@
+/**por default position es relative*/
+
+
+#encabezado{
+    background-color: green;
+    
+}
+
+#cuerpo{
+    background-color: magenta;
+    position: relative;
+    
+}
+
+#menu{
+    width: 40%;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    height: 340px;
+    
+    
+    
+}
+/**absolute es en relacion al primer elemento que
+le contenga y que sea relative**/
+#contenido{
+    background-color: yellow;
+    width: 60%;
+    position: absolute;
+    right: 0;
+    
+    
+}
+
+#formulario1{
+    background-color: yellow;
+    width: 50%;
+    left: 0;
+    height: 300px;
+    
+}
+
+#formulario2{
+    background-color: brown;
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 0px;
+    height: 300px;
+    
+    
+    
+}
+
+#botones{
+    background-color: blue;
+    width: 100%;
+    bottom: 0;
+    height: 40px;
+    
+    
+}
+
+/**
+el fixed es siempre contra la ventana
+**/

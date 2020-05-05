@@ -1,0 +1,68 @@
+div{
+  border: solid 3px;  
+}
+
+html,body{
+    margin:0;
+}
+
+html{
+    background-color: #99FF99;
+}
+
+#contenedor1{
+    background: yellow;
+    border: solid 2px;
+    margin: 12px;
+    padding: 30px;
+}
+
+#contenedor5{
+    background: blue;
+}
+
+#contenedor2{
+    background: url("chile12180614.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    color:white
+    background: gray;
+    margin: 20px 60px; /*del borde hacia afuera*/
+    padding: 30px; /*del borde hacia el texto*/
+}
+
+#contenedor3{
+    background-color: green;
+    background-image: url(suiza.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    color: red;
+    margin: 20px 60px 30px 10px;
+    padding: 10px 10px 10px 7px;
+    
+}
+
+#contenedor4{
+    background: url(chile8180614.jpg) no-repeat;    
+    color: blue;
+    margin-top: 15px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+#contenedor5{
+    width: 200px;
+    margin: 10px auto;     
+    color: white;
+}
+
+
+#contenedor6{
+    color: red;
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;    
+}

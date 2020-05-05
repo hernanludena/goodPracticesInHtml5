@@ -1,0 +1,19 @@
+body{
+    margin: 12px;
+    font-size: 15px;
+    
+}
+
+p{
+    font-size: 1.3em;
+    padding: 2em;
+    background-color: lightblue;
+    
+}
+
+span{
+    font-size: 5ex;
+}
+
+
+

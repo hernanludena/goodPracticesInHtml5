@@ -1,0 +1,121 @@
+span
+{
+    color:red ; /* !important --forza que se aplique a pesar que las otras son mas especificas */
+}
+span.importante{
+    /*se aplica a todos los spa que tengan class importante */
+    text-decoration: none;
+    color:gray;
+}
+p span{  /*todos los span q esten dentro de un tag p*/
+    color:blue;
+}
+
+p span.importante{  /*solo los q estan dentro de un p*/
+    font-family: monospace;
+    text-decoration: underline;
+    color: #abcdef;
+}
+
+/*los tag p con class importante y div con id= selectores_compuestos*/
+#selectores_compuestos p.importante{  /*unido--atributo*/
+    font-size:28px;
+    color: black;
+    text-decoration: none;
+    font-family: cursive; /*inheret para q copie lo del padre*/
+    
+}
+
+#selectores_compuestos p .importante{  /*separado--cualquier tag q tenga class importante y div con id= selectores_compuestos*/
+    background: gray;
+    color: white;    
+}
+
+.tachado{
+    text-decoration: line-through;    
+}
+
+.resaltado{
+    background: yellow;
+    font-weight: bold;
+}
+
+.resaltado,.tachado{
+    color: black;
+}
+
+.resaltado.tachado{ /*es mas espefico---class q tenga resaltado y tachado*/
+    color: white;
+}
+
+.uno,.dos{ /*los tags tengan class uno o dos */
+    color:green;
+}
+.dos{ /*solo los q tengan class dos*/
+    font-weight: bold;
+}
+.uno + .dos{ /*los q tengan class dos y que esten precedidos por un .uno*/
+    color: blue;    
+}
+
+p + p{   /*todos lo q esten precedidos por un p*/
+    text-indent: 1.5em;
+}
+
+p + p + p{  /*precedidos de 2 p*/
+    text-indent: 5em;
+}
+
+div h3{ /*h3 q esten dentro de un div*/
+    text-align: center;
+}
+
+div > h3{  /*h3 q esten inmediatamente dentro de un div, que no haya nada en medio*/
+    color:orange;
+}
+
+
+/*
+[nombre_atributo], selecciona los elementos que tienen establecido el atributo llamado nombre_atributo, independientemente de su valor.
+*/
+div[id]{ /*aplica a todos los divs q tengan un atributo id*/
+    color:yellow;
+    border:solid 2px black;
+}
+
+
+/*
+[nombre_atributo=valor], selecciona los elementos que tienen establecido un atributo llamado nombre_atributo con un valor igual a valor.
+*/
+div[id="selectores_avanzados"]{ /*aplica a todos los divs q tengan un atributo con ese id*/
+    color:violet;
+    border:solid 1px black;
+}
+
+
+/*
+[nombre_atributo~=valor], selecciona los elementos que tienen establecido un atributo llamado nombre_atributo y cuyo valor es una lista de palabras separadas por espacios en blanco en la que al menos una de ellas es exactamente igual a valor
+*/
+span[class~="tachado"]{ /*tomado solamente tachado o tachado con otra cosa adicional*/
+    /*si colocamos sin la s, toma solo los tachados*/
+    color:pink;
+}
+
+
+
+/*
+[nombre_atributo|=valor], selecciona los elementos que tienen establecido un atributo llamado nombre_atributo y cuyo valor es una serie de palabras separadas con guiones, pero que comienza con valor. Este tipo de selector sólo es útil para los atributos de tipo lang que indican el idioma del contenido del elemento.
+*/
+div[lang|="en"]{
+    background: white;
+}
+
+div[lang|="es"]{
+    background: blue;
+}
+
+
+/* # es para un ID*/
+/* . es para un class */ 
+
+

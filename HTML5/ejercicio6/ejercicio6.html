@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Selectores con Combinaciones y Avanzados</title>
+    <meta name="description" content="Selectores con Combinaciones 1.">
+    <link rel="stylesheet" href="estilos6.css">
+</head>
+
+<body>
+    <div lang ="es-EC" id ="selectores_descendentes">
+        <div> <h3>Selectores descendentes</h3> </div>
+        
+        <span>
+        <h3>Ejercicio</h3>
+        </span>
+        <span>Texto dentro de span</span>
+        <p>
+            <span lang ="es-AR">Texto dentro de párrafo y span</span>
+        </p>
+        <p>
+            <span class = "importante">Texto dentro de párrafo y span con clase importante</span>
+        </p>
+        <span class = "importante">Texto span con clase importante</span>
+    </div>
+
+    <div id ="selectores_compuestos">
+        <h3>Selectores compuestos</h3>
+        <p class = "importante">Parrafo importante</p>
+        <p><span class = "importante">Span importante</span>
+        </p>
+        <span class ="tachado resaltado">Texto importante</span>
+        <span class ="resaltado">Resaltado<span class = "tachado">Tachado dentro de Resaltado</span></span>
+    </div>
+
+    <div lang ="en-US" id = "selectores_avanzados">
+        <h3>Selectores Avanzados</h3>
+        <h3>Selector Hijo Directo</h3>
+        <span>
+        <h3>Selector Hijo no Directo</h3>
+        </span>
+        <h3>Selector Adyacente</h3>
+        <p class = "dos">Dos</p>
+        <p class = "uno">Uno</p>
+        <p class = "dos">Dos</p>
+        <p class = "dos">Dos</p>
+
+        <h3>Selector de atributos</h3>
+        <p>Cada uno de los Div de la página que tengan id, tienen borde y margin abajo.</p>
+        <p><span>[nombre_atributo]</span>, selecciona los elementos que tienen establecido el atributo llamado nombre_atributo, independientemente de su valor.</p>
+        <p><span>[nombre_atributo=valor]</span>, selecciona los elementos que tienen establecido un atributo llamado nombre_atributo con un valor igual a valor.</p>
+        <p><span>[nombre_atributo~=valor]</span>, selecciona los elementos que tienen establecido un atributo llamado nombre_atributo y cuyo valor es una lista de palabras separadas por espacios en blanco en la que al menos una de ellas es exactamente igual a valor.</p>
+        <p><span>[nombre_atributo|=valor]</span>, selecciona los elementos que tienen establecido un atributo llamado nombre_atributo y cuyo valor es una serie de palabras separadas con guiones, pero que comienza con valor. Este tipo de selector sólo es útil para los atributos de tipo lang que indican el idioma del contenido del elemento.</p>
+    </div>
+
+    </body>
+
+</html>

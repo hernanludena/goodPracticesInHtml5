@@ -1,0 +1,130 @@
+body {
+    padding-bottom: 20px;
+}
+
+.brand {
+    width: 100%;
+    height: 224px;
+    background: url('../assets/commons/logo_cobiscorp.png') #1F1F1F no-repeat center center;
+}
+
+.control-hide {
+    display: none;
+}
+
+.role-container,
+.signin-container {
+    width: 100%;
+    border-top: 1px solid #809BAA;
+    border-bottom: 1px solid #809BAA;
+    background: #d2eef7;
+    background: -moz-linear-gradient(top, #d2eef7 0%, #7bcde8 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d2eef7), color-stop(100%,#7bcde8));
+    background: -webkit-linear-gradient(top, #d2eef7 0%,#7bcde8 100%);
+    background: -o-linear-gradient(top, #d2eef7 0%,#7bcde8 100%);
+    background: -ms-linear-gradient(top, #d2eef7 0%,#7bcde8 100%);
+    background: linear-gradient(to bottom, #d2eef7 0%,#7bcde8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2eef7', endColorstr='#7bcde8',GradientType=0 );
+    box-shadow: 0 1px 5px rgba(0,0,0,.3);
+}
+
+    .signin-container .alert {
+        margin-bottom: 0;
+        padding: 5px;
+        text-align: center;
+    }
+
+.copyright {
+    margin-top: 5px;
+    width: 100%;
+    text-align: center;
+    font-size: 11px;
+    color: #666;
+}
+
+.form-signin {
+    max-width: 380px;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+    .form-signin .form-control {
+        position: relative;
+        font-size: 16px;
+        height: auto;
+        padding: 10px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+        .form-signin .form-control:focus {
+            z-index: 2;
+        }
+
+    .form-signin input[type="text"] {
+        margin-bottom: -1px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .form-signin .d-catalog-combobox input[type="text"] {
+        position: relative;
+        font-size: 13px;
+        height: auto;
+        padding: 10px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        margin-bottom: -1px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .form-signin .d-catalog-combobox .k-combobox {
+        margin-bottom: 1px;
+    }
+
+    .form-signin .d-catalog-combobox span .k-icon {
+        vertical-align: middle !important;
+    }
+
+    .form-signin input[type="password"] {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+
+    .form-signin button[type="submit"] {
+        margin-top: 10px;
+    }
+
+/* Desginer classes*/
+.d-hide {
+    display: none;
+}
+
+.d-catalog-input {
+    width: 50px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #c5c5c5;
+    text-indent: 4px;
+    color: #2e2e2e;
+}
+.d-catalog-combobox {
+    background: transparent !important;
+}
+
+/* Overrite classes*/
+.k-widget.k-tooltip-validation {
+    position: absolute;
+}
+
+
+.k-widget.k-combobox {
+    padding: 0 0 0 5px;
+    position: absolute;
+    background: transparent !important;
+}
+

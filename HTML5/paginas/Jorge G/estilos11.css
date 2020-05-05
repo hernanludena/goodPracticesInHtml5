@@ -1,0 +1,72 @@
+div{
+    border: solid 1px;
+}
+
+#contenedor{
+    width: auto;
+    height: auto;
+    display: block;
+    background-color: white;
+    border: solid 1px;
+    margin: 20px;
+    position: relative
+}
+
+#encabezado{
+    width: 100%;
+    height: 150px;
+    margin-bottom: 10px;
+    background: beige;
+}
+
+#cuerpo{
+    background: white;
+    height: 500px;
+    display: block;
+}
+
+#left{
+    width: 30%;
+    height: 400px;
+    background: beige;
+    display: block;
+}
+
+#right{
+    margin-left: 5px;
+    height: 400px;
+    width: 69%;
+    display: block;
+    background: lightblue;
+    left: 30%;
+    top: -403px;
+    position: relative;
+}
+
+#formularios{
+    width: 100%;
+    height: 400px;
+}
+
+#formulario1{
+    width: 49%;
+    color: white;
+    height: 300px;
+}
+
+#formulario2{
+    width: 49%;
+    color: white;
+    height: 300px;
+    position: relative;
+    left: 50%;
+    top: -302px;
+}
+
+#botones{
+    height: 93px;
+    position: relative;
+    top: -100px;
+    margin-top: 5px;
+    
+}

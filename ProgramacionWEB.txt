@@ -1,0 +1,50 @@
+--FRONTEND--
+Utiliza en google chrome la Lupa,junto a ELEMENT para ver el elemento en pantalla.
+En Console podemos manejar los objetos Scope.
+
+loanInfo={}
+Object {}
+loanInfo.Nombre="Fabián"
+"Fabián"
+loanInfo
+Object {Nombre: "Fabián"}
+loanInfo.Apellido="Altamirano"
+"Altamirano"
+loanInfo
+Object {Nombre: "Fabián", Apellido: "Altamirano"}
+loanInfo.Calcular=function(){b=2;}
+function (){b=2;}
+loanInfo
+Object {Nombre: "Fabián", Apellido: "Altamirano", Calcular: function}
+loanInfo2={nombre:"Gabriel",apellido:"Villamagua"}
+Object {nombre: "Gabriel", apellido: "Villamagua"}
+loanInfo2
+Object {nombre: "Gabriel", apellido: "Villamagua"}
+
+
+kendo-validator="pageValidator --> valida campos en pantalla
+
+--controles---
+ <input class="k-textbox form-control" kendo-masked-text-box k-mask="'000-00000-000000000'" ng-model="loanInfo.loanNumber" ng-change="onBlurLoanNumber()" 
+ autofocus required data-required-msg="{{'BRANCH.MSG_LOAN_NUMBER_IS_REQUIRED'|translate}}" />
+ 
+ng-model="officeId"  --->aqui almacenamos los datos ingresados en los controles.
+ng-change="onBlurLoanNumber()"  --->eventos sobre el control
+
+-----------------------------------------------------------------------------------------------------------------------
+
+. es un class
+# es un id
+.tabla1.tabla2  - un class con las dos tablas
+.tabla1 .tabla2  - un tabla2 dentro de un tabla1
+.tabla1 – un class con por lo menos un tabla o algo mas
+.uno,.dos - un class con uno o dos
+.uno + .dos - un dos precedido de un uno
+span.importante - un span con class importante
+p span:first-child - el primer hijo dentro de cada span que este precedido por un p
+p:first-child span - todos los span precedidos por el primer p
+p span[class~=parrafo] - todos los span con class parrafo solito o con algo mas
+p span[class=parrafo] - todos los span solo con class parrafo
+
+-----------------------------------------------------------------------------------------------------------------------
+

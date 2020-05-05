@@ -1,0 +1,56 @@
+div{
+    width: 300px;
+    height: 300px;
+    margin: 20px;    
+}
+
+/*
+degradados
+*/
+
+#div1{
+    background: linear-gradient(red,blue,gray);    
+    background: -moz-linear-gradient(red,white,red); /*Mozilla*/
+    background: -o-linear-gradient(blue,orange,gray); /*Opera*/
+    background: -webkit-linear-gradient(yellow,blue,red);/*Safari*/
+    background: -ms-linear-gradient(black,orange,gray);/*IE*/
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#ed0909', EndColorStr='#eef708');  /* IE v.extrema */
+     
+}
+
+#div2{
+ background: linear-gradient(yellow 40%,blue 10%,red 55%);      
+ 
+}
+
+#div3{
+ background: linear-gradient(to right,yellow 50%,blue 10%,red);         
+}
+
+#div4{
+ background: linear-gradient(to bottom right,yellow 50%,blue 10%,red);        
+}
+
+#div5{    
+ background: linear-gradient(240deg,yellow 50%,blue 10%,red);        
+}
+
+#div6{
+    width: 400px;
+    background: radial-gradient(yellow 50%,blue 10%,red);        
+}
+#div7{
+    width: 400px;    
+    background: radial-gradient(circle,yellow 50%,blue 10%,red,yellow,blue,orange,green);        
+}
+
+#div8{
+    width: 400px;    
+    background: repeating-linear-gradient(yellow,blue,red,yellow,blue,red);        
+}
+
+#div9{
+    width: 400px;    
+    background: repeating-radial-gradient(yellow,blue,red,yellow,blue,red);        
+}
+

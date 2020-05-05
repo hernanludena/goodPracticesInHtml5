@@ -1,0 +1,44 @@
+p{
+    box-shadow: -5px 20px 30px 3px orange;  /*inset*/
+}
+/*
+1 posicion de la sombra horizontal
+2 posicion de la sombra vertical
+3 distancia difuminado
+4 extencion de la sobra 
+5 color
+6 cambio de la direccion de la sombra,inset
+*/
+
+
+
+.parrafo{
+    text-shadow: 2px 2px 10px blue;
+    font-size: 20px;
+    font-weight: bold;    
+}
+/*
+1. Posicion de la sombra horizontal
+2. Posicion de la sombra vertical
+3. Distancia de difuminado
+4. Color
+*/
+
+
+#contenedor{
+    border-radius: 25px 0px 25px 0px;
+    background: violet;
+    opacity: 0.5; /*de cero hasta 1 */
+}
+/*
+1 medida para top-left  (x lo menos 1)
+2 medida para top-right
+3 medida para bottom-right
+4 medida para bottom-left
+Nota: radio para las 4 esquinas
+*/
+
+.opacidad{
+    opacity: 0.5; /*de cero hasta 1 */
+}
+

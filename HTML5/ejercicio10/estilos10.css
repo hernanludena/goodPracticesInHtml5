@@ -1,0 +1,31 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    border: solid 5px;
+}
+
+#contenedor1{
+    position: relative;
+    width: 600px;
+    height: 700px;
+    background-color: lightgreen;
+    margin: 40px;
+}
+
+#contenedor2{
+    position: static;
+    top: 100px;
+    left: 100px; 
+    bottom: 100px;
+    /*toman dependiendo de position, si es static se ignoran*/
+}
+
+#contenedor3{
+    position: fixed;  /*sale del flujo y se posiciona respecto al navegador, los demas elementos se reposicionan*/
+    top: 0px;
+    left: 0px; 
+    bottom: 0px;
+    top: 0px  
+    
+}

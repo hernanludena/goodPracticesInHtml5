@@ -1,0 +1,16 @@
+--HTML5--
+Nuevas etiquetas de audio y video
+codigo mas limpio
+almacenamiento en cache
+Falencias en dispositivos moviles
+article-footer
+
+--CSS--
+bordes-fondos-texto-degradados-otros
+
+<!DOCTYPE html>  --v5
+
+*{color:red}  -->selector(* . # a:hover div p td p )  TIPOS DE SELECTORES EN CSS
+
+
+identar en BRACKETS  CTRL+ALT+L

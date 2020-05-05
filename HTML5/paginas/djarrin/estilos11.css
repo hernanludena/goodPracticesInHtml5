@@ -1,0 +1,72 @@
+html, body{
+    margin: 0px;
+}
+
+div{
+    border: solid 2px;
+    width: 200px;
+    height: 200px;
+}
+
+#encabezado{
+    position: relative;
+    margin: 5px;
+    width: 95%;
+    height: 300px;
+    background: blue;
+
+}
+
+#partecentral{
+   position: relative;
+    margin: 5px;
+    width: 95%;
+    height: 800px;
+}
+
+#menu{
+    position: relative;
+    width: 30%;
+    height: 750px;
+    background: red;   
+    left: 5px;
+        background: cyan;
+}
+
+
+#contenido{
+    position: absolute;  /*Con respecto al browser*/
+    top:0px;
+    left:31%;
+    width: 69%;
+    height: 750px;
+      background: yellow;
+    
+}
+
+#formulario1{
+    position: absolute;  /*Con respecto al browser*/
+    top:20px;
+    left:1%;
+    width: 48%;
+    height: 500px;
+    
+}
+#formulario2{
+    position: absolute;  /*Con respecto al browser*/
+    top:20px;
+    left:50%;
+    width: 48%;
+    height: 500px;
+    
+}
+
+#botones{
+    position: absolute;  /*Con respecto al browser*/
+    top:530px;
+    left:1%;
+    width: 98%;
+    height: 190px;
+    
+}
+

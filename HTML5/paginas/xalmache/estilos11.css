@@ -1,0 +1,96 @@
+div{
+    
+    background-color: yellow;
+    border: solid 2px;
+    }
+#encabezado
+{
+    position: relative;
+    width: 90%;
+    height: 90px;
+    background-color: blue;
+    margin: 10px;
+    }
+#otros
+{
+    position: relative;
+    width: 90%;
+    height: 500px;
+    background-color: yellow;
+    margin: 10px;
+    }
+#menu
+{
+    position: relative;
+    width: 30%;
+    height: 90%;
+    background-color: blue;
+    margin: 10px;
+    }
+#contenido
+{
+    position: absolute;
+    width: 63%;
+    height: 60%;
+    top: 10px;
+    left: 185px;
+    background-color: red;
+    margin: 0px;
+    }
+#botones
+{
+    position: absolute;
+    width: 63%;
+    height: 30%;
+    top: 320px;
+    left: 185px;
+    background-color: skyblue;
+    margin: 0px;
+    }
+#formulario1
+{
+    position: absolute;
+    width: 45%;
+    height: 90%;
+    top: 20px;
+    left: 5px;
+    background-color: skyblue;
+    margin: 0px;
+    }
+#formulario2
+{
+    position: absolute;
+    width: 45%;
+    height: 90%;
+    top: 20px;
+    left: 170px;
+    background-color: skyblue;
+    margin: 0px;
+    }
+/*
+#contenedor1
+{
+    position: relative;
+    width: 600px;
+    height: 700px;
+    background-color: blue;
+    margin: 40px;
+    }
+#contenedor2
+{
+    position: static;
+    top: 100px;
+    left: 100px;
+    background-color: magenta;
+    }
+#contenedor3
+{
+    float: 
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: skyblue;
+    }
+
+
+*/

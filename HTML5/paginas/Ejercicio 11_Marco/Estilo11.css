@@ -1,0 +1,60 @@
+
+html, body{ margin: 0px;}
+div{
+    margin: 5px;
+    background-color: #AAAA99;
+    border: solid 2px;
+    }
+
+#contenedor1{
+    position: relative;
+    width: 94%; 
+    height: 150px; 
+    right: 5%;
+    left: 2%}
+#contenedor2{
+    position: relative;   
+    width: 94%;      
+    height: 300px;
+    right: 5%;
+    left: 2%;
+    background-color: #FFFFFF;}
+#contenedor3{
+    position: absolute;    
+    width: 34%; 
+    height: 95%; 
+    top: 0%;
+    left: 0%;
+    background-color: #AAAA55;
+    }
+#contenedor4{
+    position: absolute;    
+    width: 63%; 
+    height: 95%; 
+    top: 0%;
+    left: 35%;
+    right: 0%;}
+#contenedor5{
+    position: absolute;    
+    width: 40%; 
+    height: 60%; 
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    background-color: #BBBB00;}
+#contenedor6{
+    position: absolute;    
+    width: 54%; 
+    height: 60%; 
+    top: 0%;
+    left: 43%;
+    right: 0%;
+    background-color: #BBBB66;}
+#contenedor7{
+    position: absolute;    
+    width: 97%; 
+    height: 31%; 
+    top: 64%;
+    left: 0%;
+    right: 0%;
+    background-color: #BBBB99;}

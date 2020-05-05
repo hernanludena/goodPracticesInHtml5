@@ -1,0 +1,56 @@
+
+div{
+    width: 200px;
+    height: 200px;
+    background: #d6d6d6;
+    border: solid 2px white;
+}
+
+#encabezado{
+    
+    width: 100%;
+    height: 100px;
+    background: #8d8787;
+    margin: 0px;
+    position: relative;
+}
+
+#menu{
+    width: 30%;    
+    height: 600px;
+    position: absolute;
+}
+
+/* fixed siempre de acuerdo a la ventana*/
+#contenido{    
+    width: 68%;
+    height: 600px;    
+    left: 32%;
+    align-content: center;
+    position: relative;
+}
+
+#formulario1{
+    height: 80%;
+    width: 49%;    
+    position: absolute;
+}
+
+#formulario2{
+    height: 80%;
+    left: 50%;
+    width: 49%;
+    position: relative;
+}
+
+#botones{
+    height: 15%;    
+    width: 99%;
+    position: relative;
+}
+/* con position absolute, la position es deacuerdo  
+#contenedor4{
+    top: 100px;
+    left: 100px;
+    position: absolute;
+}*/
